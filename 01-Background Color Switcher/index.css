@@ -6,22 +6,31 @@ html {
     display: block;
   }
   .canvas {
+    
     margin: 100px auto 100px;
     width: 80%;
     text-align: center;
+    
   }
-  
+  nav{
+    background-color: rgb(211, 222, 222);
+    width: fit-content;
+    padding: 10px;
+    border-radius:5px;
+    border: 2px solid black;
+  }
   .button {
     width: 100px;
     height: 10px;
     border: solid black 2px;
     display: inline-block;
     padding: 10px;
+    cursor: pointer;
   }
   .button:hover{
-    transform: scale(-0.9);
+    transform: scale(1.05);
     /* rotate: 720deg; */
-    transition: 3s;
+    transition: 2s;
     /* border-radius: 50%; */
   }
   
@@ -37,5 +46,9 @@ html {
   }
   #yellow {
     background: yellow;
+  }
+
+  #purple{
+    background-color: purple;
   }
   
