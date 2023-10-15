@@ -13,9 +13,16 @@ html {
   
   .button {
     width: 100px;
-    height: 100px;
+    height: 10px;
     border: solid black 2px;
     display: inline-block;
+    padding: 10px;
+  }
+  .button:hover{
+    transform: scale(-0.9);
+    /* rotate: 720deg; */
+    transition: 3s;
+    /* border-radius: 50%; */
   }
   
   #grey {
