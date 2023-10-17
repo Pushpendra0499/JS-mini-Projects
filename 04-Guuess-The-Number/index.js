@@ -23,7 +23,7 @@ if (playGame) {
     validateGuess(guess);
   });
 }
-
+ // 2:53:00
 function validateGuess(guess) {
   if (isNaN(guess)) {
     alert('PLease enter a valid number');
@@ -55,7 +55,7 @@ function checkGuess(guess) {
   }
 }
 
-function displayGuess(guess) {
+function displayGuess(guess) {  /// This is cleanup method
   userInput.value = '';
   guessSlot.innerHTML += `${guess}, `;
   numGuess++;
