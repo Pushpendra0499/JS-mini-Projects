@@ -4,33 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess The Number</title>
-
-    <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
 </head>
-    <body style="background-color:#242222; color:#fff;">
-        <nav>
-          <a href="/" aria-current="page">Home</a>
-          <a target="_blank" href="https://www.youtube.com/@chaiaurcode"
-            >Youtube channel</a>
-        </nav>
-          <!-- 2:41:00 -->
+    <body style="background-color:#8f8c8c; color:#fff; ">
+        
           <div id="wrapper">
-            <h1>Number Guessing game</h1>
-          <p>Try and guess a random number between 1 and 100.</p>
-          <p>You have 10 attempts to guess the right number.</p>
+
+            <h1 id="heading1">Number Guessing Game</h1>
+          <p id="para1">Try and guess a random number between 1 and 20.</p>
+          <p id="para2">You have 6 attempts to guess the right number.</p>
           <br>
               <form class="form">
                   <label for="guessField" id="guess">Guess a number</label>
                   <input type="text" id="guessField" class="guessField">
-                  <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+                  <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
               </form>
       
               <div class="resultParas">
                   <p >Previous Guesses: <span class="guesses"></span></p>
-                  <p >Guesses Remaining: <span class="lastResult">10</span></p>
+                  <p >Guesses Remaining: <span class="lastResult">5</span></p>
                   <p class="lowOrHi"></p>
               </div>
           </div>
+
+          
           <script src="index.js"></script>
       
 </body>
