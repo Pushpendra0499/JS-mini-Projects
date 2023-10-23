@@ -11,7 +11,7 @@
 
 body{
  margin-left:28%;
- background-color: #576ad5;
+ background-color: #afb4cc;
 }
 
 
@@ -23,15 +23,24 @@ body{
 }
 
 #weight-guide {
-  margin-left: 75px; 
+  margin-left: 50px; 
   margin-top: 25px;
+  background-color: #dfdcdc;
+  border:1px solid rgb(21, 21, 21);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 #results {
   font-size: 35px;
-  margin-left: 90px;
+  margin-left: 115px;
   margin-top: 20px;
+  padding: 5px;
+  background-color: rgb(34, 47, 47);
+  width: fit-content;
   color: rgb(241, 241, 241);
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 button {
@@ -70,13 +79,13 @@ h1 {
   }
 
   #weight-guide {
-    margin: 0; 
+    margin-left: 20px; 
     text-align: center;
   }
 
   #results {
     font-size: 25px; 
-    margin-left: 0; 
+    
     margin-top: 10px; 
   }
 
