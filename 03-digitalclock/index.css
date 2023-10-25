@@ -1,7 +1,7 @@
 
 body {
-  background-color: #212121;
-  color: #fff;
+  background-color: rgb(5, 5, 118);
+  color: #0b0b0b;
 }
 .center {
   display: flex;
@@ -12,8 +12,12 @@ body {
 }
 #clock {
   font-size: 40px;
-  background-color: orange;
+  background-color:chartreuse;
   padding: 20px 50px;
   margin-top: 10px;
   border-radius: 10px;
+}
+#banner{
+  font-size: 40px;
+  color: white;
 }

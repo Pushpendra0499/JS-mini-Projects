@@ -2,12 +2,11 @@
 table,
 th,
 td {
-  border: 2px solid greenyellow;
+  border: 2px solid #1d1d1d;
   border-collapse: collapse;
-  padding: 10px;
+  padding: 15px;
 }
 
-/* Define styles for elements with class "project" */
 .project {
   background-color: #555454;
   color: #ffffff;
@@ -18,9 +17,16 @@ td {
   height: 100vh;
 }
 
-/* Define styles for elements with class "color" */
 .color {
-  color: aliceblue;
+  color: #f6f7f7;
   display: flex;
   flex-direction: row;
+  background-color:rgb(124, 9, 231);
+}
+.key{
+  font-size: large;
+  background-color: blue;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
 }
